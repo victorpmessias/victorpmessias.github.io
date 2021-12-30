@@ -1,0 +1,83 @@
+.curriculo-form{
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  background-color: #ffc8b7;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 40px;
+  flex-wrap: wrap;
+  position: relative;
+
+}
+
+.container-form{
+  width: 360px;
+  padding: 30px;
+  background: #F4BDAB;
+  position: relative;
+}
+
+
+.container-form h3{
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  color: #750000;
+
+}
+
+.container-form li{
+  margin-left: 15px;
+  color: #A41C07;
+  position: relative;
+}
+
+.container-form h2{
+  position: relative;
+}
+.container-form h2::before{
+  content: '';
+  display: block;
+  width: 4px;
+  height: 60%;
+  background: #DA3636;
+  position: absolute;
+  top: 20%;
+  left: -9px;
+}
+
+.container-form li::before{
+  content: '';
+  display: block;
+  width: 10px ;
+  height: 2px;
+  background: #FF7067;
+  position: absolute;
+  left: -15px;
+  top: 15px;
+}
+
+.curriculo-form::before {
+  content: "";
+  width: 97px;
+  height: 101px;
+  display: block;
+  background: url("/img/detalhe-section.svg") no-repeat center;
+  position: absolute;
+  left: -22px;
+  top: -22px;
+}
+
+.curriculo-form ul{
+  margin: 5px;
+}
+
+@media (max-width: 500px){
+  .curriculo-form h3{
+    margin-top: 15px;
+    margin-bottom: 5px;
+  
+  }
+}

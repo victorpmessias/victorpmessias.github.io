@@ -1,0 +1,40 @@
+.contato {
+  
+  background-color: #ffc8b7;
+  margin-top: 60px;
+  padding: 60px;
+  position: relative;
+}
+.contato::before {
+  content: "";
+  width: 97px;
+  height: 101px;
+  display: block;
+  background: url("/img/detalhe-section.svg") no-repeat center;
+  position: absolute;
+  left: -22px;
+  top: -22px;
+
+}
+
+.contato-flex{
+  margin-top: 15px;
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.contato h2 {
+  position: relative;
+}
+
+.contato h2::before{
+  content: '';
+  display: block;
+  width: 4px;
+  height: 60%;
+  background: #DA3636;
+  position: absolute;
+  top: 20%;
+  left: -9px;
+}

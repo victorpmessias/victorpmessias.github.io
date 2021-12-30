@@ -1,0 +1,69 @@
+.curriculo-exp{
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: #ffc8b7;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px;
+  position: relative;
+
+}
+
+
+.curriculo-exp::before {
+  content: "";
+  width: 97px;
+  height: 101px;
+  display: block;
+  background: url("/img/detalhe-section.svg") no-repeat center;
+  position: absolute;
+  left: -22px;
+  top: -22px;
+}
+
+.curriculo-exp h2 {
+  position: relative;
+}
+.curriculo-exp h2::before{
+  content: '';
+  display: block;
+  width: 4px;
+  height: 60%;
+  background: #DA3636;
+  position: absolute;
+  top: 20%;
+  left: -9px;
+}
+
+.curriculo-exp p{
+  position: relative;
+  margin-left: 14px;
+}
+.curriculo-exp p::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 60%;
+  background: #ff7067;
+  position: absolute;
+  top: 20%;
+  left: -14px;
+}
+
+.curriculo-exp h3{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  
+}
+.curriculo-exp h4{
+  margin-bottom: 5px;
+}
+
+@media (max-width: 500px){
+  .curriculo-exp h3{
+    margin-top: 15px;
+    margin-bottom: 5px;
+  
+  }
+}
